@@ -28,32 +28,48 @@ button:hover {
   width: 25%;
   border-right: 1px solid #DDDDDD;
   float: left;
+  margin-left: 30px;
 }
 
 .amenities {
     height: 100%;
     width: 25%;
     float: left;
+    margin-left: 30px;
 }
 
-.filters h3 {
+.locations h3, .amenities h3 {
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.filters h4 {
+.locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
+    margin-top: 0;
 }
-.filters h2 {
-    font-size: 16px;
 
-}
-.popover {
-    display: none;
-    list-style-type: none;
+.filters .popover {
+    display: block;
     background-color: #FAFAFA;
+    width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    margin-left: -30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.popover ul {
+    list-style-type: none;
+}
+.popover li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.popover h2 {
+    font-size: 16px;
 }
