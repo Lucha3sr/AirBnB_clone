@@ -37,7 +37,7 @@
 }
 
 .price_by_night p{
-    margin: auto;
+    margin-top: -10px;
 }
 
 .information{
@@ -54,7 +54,6 @@
     background-repeat: no-repeat;
     background-position: center top;
     display: inline-block;
-    margin-top: 10px;
 }
 
 .information .number_rooms{
